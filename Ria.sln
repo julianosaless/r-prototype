@@ -5,15 +5,15 @@ VisualStudioVersion = 17.8.34322.80
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ria.UnitTest", "Ria.UnitTest\Ria.UnitTest.csproj", "{9FD4F0FB-E5EE-455A-A451-90ADEBC36B95}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ria.WebApi", "Ria\Ria.WebApi.csproj", "{023CCF46-0D41-455A-8309-D1FBB1722DD1}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ria.Business", "Ria.Business\Ria.Business.csproj", "{968E1CA7-FE48-477F-B6EC-E1F712B136F7}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ria.Data", "Ria.Data\Ria.Data.csproj", "{BA926149-404B-4A76-9AB1-8EA503D7E85B}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ria.Entities", "Ria.Entities\Ria.Entities.csproj", "{ED56131C-19FC-4112-B47C-66609C9AB18A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ria.Common", "Ria.Common\Ria.Common.csproj", "{5F1A8534-BF48-4711-8001-7EA54E0B5E96}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ria.Common", "Ria.Common\Ria.Common.csproj", "{5F1A8534-BF48-4711-8001-7EA54E0B5E96}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ria.WebApi", "Ria.WebApi\Ria.WebApi.csproj", "{FAAEE8B7-AE1B-4513-9E8F-316520DBA2A4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,10 +25,6 @@ Global
 		{9FD4F0FB-E5EE-455A-A451-90ADEBC36B95}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9FD4F0FB-E5EE-455A-A451-90ADEBC36B95}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9FD4F0FB-E5EE-455A-A451-90ADEBC36B95}.Release|Any CPU.Build.0 = Release|Any CPU
-		{023CCF46-0D41-455A-8309-D1FBB1722DD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{023CCF46-0D41-455A-8309-D1FBB1722DD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{023CCF46-0D41-455A-8309-D1FBB1722DD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{023CCF46-0D41-455A-8309-D1FBB1722DD1}.Release|Any CPU.Build.0 = Release|Any CPU
 		{968E1CA7-FE48-477F-B6EC-E1F712B136F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{968E1CA7-FE48-477F-B6EC-E1F712B136F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{968E1CA7-FE48-477F-B6EC-E1F712B136F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -45,6 +41,10 @@ Global
 		{5F1A8534-BF48-4711-8001-7EA54E0B5E96}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5F1A8534-BF48-4711-8001-7EA54E0B5E96}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5F1A8534-BF48-4711-8001-7EA54E0B5E96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAAEE8B7-AE1B-4513-9E8F-316520DBA2A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAAEE8B7-AE1B-4513-9E8F-316520DBA2A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAAEE8B7-AE1B-4513-9E8F-316520DBA2A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAAEE8B7-AE1B-4513-9E8F-316520DBA2A4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

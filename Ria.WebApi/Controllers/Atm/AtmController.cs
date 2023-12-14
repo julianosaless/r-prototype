@@ -10,7 +10,6 @@ using Ria.Business.Features.ATM.Request;
 using Ria.Business.Features.ATM.Commands;
 using Ria.Api.Infrastructure;
 
-
 namespace Ria.Api.Controllers.Atm
 {
     [Produces("application/json")]

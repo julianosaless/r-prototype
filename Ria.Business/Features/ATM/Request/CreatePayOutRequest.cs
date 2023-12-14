@@ -2,6 +2,12 @@
 {
     public record CreatePayOutRequest
     {
-        public int Amount { get; set; }
+        /// <summary>
+        ///  ATM Amout
+        /// </summary>
+        /// <example>
+        ///  100
+        /// </example>
+        public int Amount { get; init; }
     }
 }

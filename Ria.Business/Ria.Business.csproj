@@ -7,14 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Features\Customers\Commands\" />
-    <Folder Include="Features\Customers\Services\" />
-    <Folder Include="Features\Customers\Response\" />
-    <Folder Include="Features\Customers\Request\" />
-    <Folder Include="Features\Customers\Queries\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="MediatR" Version="9.0.0" />
   </ItemGroup>
 
