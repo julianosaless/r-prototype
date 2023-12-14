@@ -4,6 +4,12 @@
 		<IsPackable>false</IsPackable>
 		<GenerateTargetFrameworkAttribute>true</GenerateTargetFrameworkAttribute>
 	</PropertyGroup>
+	<ItemGroup>
+	  <None Remove="Customers\Data\customer-get-request.json" />
+	  <None Remove="Customers\Data\customer-get-response.json" />
+	  <None Remove="Customers\Data\customer-post-request.json" />
+	  <None Remove="Customers\Data\customer-post-response.json" />
+	</ItemGroup>
 
 	<ItemGroup>
 		<PackageReference Include="FluentAssertions" Version="6.2.0" />
@@ -23,5 +29,23 @@
 	<ItemGroup>
 	  <ProjectReference Include="..\Ria.Business\Ria.Business.csproj" />
 	  <ProjectReference Include="..\Ria.Entities\Ria.Entities.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Update="ATM\Data\atm-payout-request.json">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </None>
+	  <None Update="ATM\Data\atm-payout-response.json">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </None>
+	  <None Update="Customers\Data\customers-get_response.json">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </None>
+	  <None Update="Customers\Data\customers-post-request.json">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </None>
+	  <None Update="Customers\Data\customers-post-response.json">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </None>
 	</ItemGroup>
 </Project>

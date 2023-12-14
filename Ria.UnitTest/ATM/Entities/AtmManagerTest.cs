@@ -8,7 +8,7 @@ using Ria.Entities.Atm;
 
 namespace Ria.UnitTest.ATM.Services
 {
-    [Trait("RIA", "ATM.Services")]
+    [Trait("RIA", "ATM.Domain")]
     public class AtmCombinationServiceTest
     {
         private readonly AtmManager AtmManager;
