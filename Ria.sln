@@ -5,7 +5,7 @@ VisualStudioVersion = 17.8.34322.80
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ria.UnitTest", "Ria.UnitTest\Ria.UnitTest.csproj", "{9FD4F0FB-E5EE-455A-A451-90ADEBC36B95}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ria.Api", "Ria\Ria.Api.csproj", "{023CCF46-0D41-455A-8309-D1FBB1722DD1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ria.WebApi", "Ria\Ria.WebApi.csproj", "{023CCF46-0D41-455A-8309-D1FBB1722DD1}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ria.Business", "Ria.Business\Ria.Business.csproj", "{968E1CA7-FE48-477F-B6EC-E1F712B136F7}"
 EndProject
