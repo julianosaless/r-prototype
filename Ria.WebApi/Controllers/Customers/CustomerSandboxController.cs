@@ -23,12 +23,12 @@ namespace Ria.WebApi.Controllers.Customers
         }
 
         [HttpPost()]
-        public async Task<ActionResult<List<GetAllCustomerResponse>>> SimulateAsync(int request, string apiUrl)
+        public async Task<ActionResult<List<GetAllCustomerResponse>>> SimulateAsync(int numberOfRequest, string apiUrl)
         {
             var client = ClientFactory.CreateClient("Customers");
 
        
-            for (int i = 0; i < request; i++)
+            for (int i = 0; i < numberOfRequest; i++)
             {
                 var randomAge = new Random().Next(10, 90);
                 var customers = await GetAsync();
